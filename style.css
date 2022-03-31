@@ -1,0 +1,303 @@
+
+@font-face {
+    font-family: 'Passions Conflict';
+    src: url(font/PassionsConflict-Regular.ttf);
+
+}
+@font-face {
+    font-family: 'Italiano';
+    src: url(font/Italianno-Regular.ttf);
+}
+
+body{
+    margin: 0;
+ 
+}
+.nav{
+    background-color: #fde1cb;
+    box-shadow: 4px whitw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 67px;
+}
+.nav h1{
+    background-color: #fde1cb;
+    padding: 7px;
+    font-family: 'Passions Conflict';
+    float:left;
+    color: white;
+    margin: 0;
+    display: inline;
+    text-align: center;
+    padding-left: 80px;
+    font-size:70px;
+    cursor: pointer;
+    font-weight: 900;
+    text-shadow:0 0  3px rgb(255, 125, 125) ;
+    display: flex;
+}
+.nav h1:hover{
+    text-shadow: 0 0 3px white;
+}
+.nav a{
+    background-color: #fde1cb;
+    font-family: 'Passions Conflict';
+    color: white;
+    margin: 0;
+    display: inline-flex;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.text .sale{
+    position:absolute;
+    top: 15%;
+    left: 10%;
+    font-size: 40px;
+    font-family: 'Italiano';
+    text-shadow: 0 0 4px rgb(228, 228, 228);
+    transition: all 1s;
+    display: flex;
+}
+.text .sale:hover{
+    transform: scale(1.1);
+}
+.text .sale .button {
+    background-color: #ffffff;
+    
+    border: none;
+    color:rgb(255, 125, 125);
+    text-align: center; 
+    text-decoration: none;
+    display: block;
+    font-size: 50px;
+    font-weight: 500;
+    padding: 8px 35px;
+    text-shadow:0 0 3px rgb(255, 125, 125); 
+    cursor: pointer;
+   font-family: 'Italiano';
+    opacity:0.9;
+    border-radius: 6px;
+}
+.text .sale .button:hover{
+    opacity:1;
+}
+.text{
+    background-image: url(images/bg1.jpg);
+    background-repeat: no-repeat; 
+    background-position:center ;
+    background-attachment:fixed;
+    width: 100%;
+    background-size: 90%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.category1 img{
+    width: 500px;
+    height: 330px;
+    margin-top: 40px;
+    margin-left: 150px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+
+
+}
+.category1{
+    transition: all 1s;
+}
+.category1:hover{
+    transform: scale(1.07);
+  
+}
+.category2 img{
+    width: 500px;
+    height: 330px;
+    margin-top: 40px;
+    margin-right: 80px;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    /* display: inline; */
+   float: left;
+   cursor: pointer;
+
+}
+.category2{
+    transition: all 1s;
+}
+.category2:hover{
+    transform: scale(1.07);
+  
+}
+.new{
+    background-image: url(images/newarrival.jpg);
+    background-repeat: no-repeat; 
+    background-position:center ;
+    background-attachment:fixed;
+    background-size: 90%;
+    height: 500px;
+    display:flex;
+}
+.arrival{
+    
+    position:absolute;
+    top: 190%;
+    left: 58%;
+    font-size: 40px;
+    display: flex;
+}
+.new .arrival .button{
+    background-color: #ffffff;
+    margin-top: 20px;
+    border: none;
+    color:rgb(255, 125, 125);
+    text-align: center; 
+    text-decoration: none;
+    display: block;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 8px 35px;
+    text-shadow:0 0 3px rgb(255, 125, 125); 
+    cursor: pointer;
+   font-family: 'Italiano';
+    opacity:0.9;
+    border-radius: 6px;
+}
+.new .arrival .button:hover{
+    opacity:1;
+}
+.new .arrival{
+    font-size: 40px;
+    font-family: 'Italiano';
+    text-shadow: 0 0 4px rgb(0, 0, 0);
+    transition: all 1s;
+}
+.new .arrival:hover{
+    transform: scale(1.1);
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Italiano';
+}
+.head h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-bottom:  2px solid rgb(146, 146, 146);
+    font-family: 'Italiano'; 
+}
+.products .one{
+     display: flex; 
+     align-items: center;
+     justify-content: space-around;
+
+}
+.products .one figure{
+    border: 5px solid rgb(255, 254, 254);
+    box-shadow: 6px 6px 6px -6px rgba(0,0,0,.2);
+    background-color: #fde1cb;
+    padding:30px 30px;
+    transition: all 1s;
+}
+
+.products .one figcaption{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 0 0 0 3px black;
+}
+.products .one figure:hover{
+    transform: scale(1.1);
+}
+
+.products .two{
+    display: flex; 
+    align-items: center;
+
+}
+.products .two figure{
+   border: 5px solid rgb(255, 254, 254);
+   box-shadow: 6px 6px 6px -6px rgba(0,0,0,.2);
+   background-color: #fde1cb;
+   padding:30px 30px;
+   transition: all 1s;
+}
+
+.products .two figcaption{
+   font-size: 32px;
+   text-align: center;
+   font-weight: 700;
+   text-shadow: 0 0 0 3px black;
+}
+.products .two figure:hover{
+    transform: scale(1.1);
+}
+.products .three{
+    display: flex; 
+    align-items: center;
+
+}
+.products .three figure{
+   border: 5px solid rgb(255, 254, 254);
+   box-shadow: 6px 6px 6px -6px rgba(0,0,0,.2);
+   background-color: #fde1cb;
+   padding:30px 30px;
+   transition: all 1s;
+}
+
+.products .three figcaption{
+   font-size: 32px;
+   text-align: center;
+   font-weight: 700;
+   text-shadow: 0 0 0 3px black;
+}
+.products .three figure:hover{
+    transform: scale(1.1);
+}
+
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.all .button{
+    background-color: #ffbcbc;
+    margin-top: 20px;
+    border: none;
+    color:white;
+    
+    text-decoration: none;
+    display: block;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 8px 35px;
+    text-shadow:0 0 5px #ffbcbc; 
+    cursor: pointer;
+    font-family: 'Italiano';
+    opacity:0.7;
+    border-radius: 6px;
+    transition: all 0.7s;
+    transition-timing-function: ease-in-out;
+}
+.all .button:hover{
+    opacity:1;
+transform: scale(1.1);
+
+}
